@@ -1,0 +1,40 @@
+{
+  "name": "umich-its-tl/viadutoo_caliper_example",
+  "description": "A set of tiny applications that demonstrate the use of Viadutoo and Caliper",
+  "keywords": [
+    "viadutoo",
+    "caliper"
+  ],
+  "homepage": "https://github.com/tl-its-umich-edu/viadutoo_caliper_example",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/tl-its-umich-edu/caliper-php-public"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/tl-its-umich-edu/viadutoo"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "umich-its-tl/caliper-php": "1.0.1",
+    "umich-its-tl/viadutoo": "1.0.2"
+  },
+  "x-repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/tl-its-umich-edu/caliper-php-public"
+    },
+    {
+      "type": "path",
+      "url": "/Users/lsloan/Projects/lsloan_viadutoo"
+    }
+  ],
+  "x-require": {
+    "php": ">=5.4",
+    "umich-its-tl/caliper-php": "1.0.1",
+    "umich-its-tl/viadutoo": "local-dev"
+  }
+}
